@@ -1,0 +1,26 @@
+aprendendo comandos git bash
+ls = listar 
+git add . = adicionar para o github
+git status = verificar status
+git commit -m "nome de origem do arquivo"= incluir arquivos do bash para o github
+git push origin main = empurrar arquivos para githubdireto do bash
+clear = limpar tela do bash
+git clone = copiar do github para o bash
+cd"nome do repositorio para listar conteudo"
+git add README = monitorar novos arquivos
+git diff = verificando mudanças
+git reset = desfazer
+git reflog = recuperar depois de fazer reset
+git merge = aplicar mudanças feitas
+git rm -f "nome do arquivo" = remove arquivos
+git mv = mover arquivos
+git branch = master sendo o principal comando "git branch testing"
+git mergetool = remover conflitos 
+git log = histoico de commits
+git stash = pausa em arquivos para não ter um commit
+git stash list = lista de pausas
+git tag =tagging cria tags
+git fetch = pegar dados de projetos remotos
+git pull = atualização local
+
+ 
