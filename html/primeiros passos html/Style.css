@@ -1,0 +1,28 @@
+body {
+    background:#fcfcfc;
+}
+#title ,.subtitle, .post_title {
+    color: blue;
+}
+.post_title {
+    font-size: 16 px;
+    font-style: italic;
+}
+.post {
+    background-color:rgb(204, 204, 243);
+    padding: 10 px;
+    border: 3px solid rgb(0, 0, 253);
+    margin: 10 px;
+    border-radius: 5px ;
+}
+.post_content{
+    margin: 0%;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.contact_list li a{
+text-decoration: none;
+}
+.imagem {
+ max-width: 250px;
+}
