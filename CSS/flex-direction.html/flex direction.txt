@@ -1,0 +1,5 @@
+flex-direction
+row(padrão)= da esquerda para direita
+row reverse = da direita para a esquerda
+columm = ordena de cima para baixo
+columm reverse = de baixo para cima 
