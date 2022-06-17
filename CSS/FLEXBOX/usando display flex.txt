@@ -1,0 +1,14 @@
+Display= iniciador do conteiner
+flex-direction=fazer direcionamento do conteiner
+flex-wrap = quebra de linha
+flex-flow = abreviação para para o diretorio e o wrap
+justify-content = alinhar itens do conteiner
+algin-content = alinhar itens do conteiner
+algin-items =  alinhar itens de acordo com eixo do conteinealgin-content = alinhar as linhas do conteiner
+ FLEX ITEM
+flex-grow = definir fator de crescimento
+flex-basis = definir tamanho inicial do item da distribuição
+flex-shrink = capacidade de distribuição
+flex= abreviação para as tres probabilidade acima citadas
+order = ordem de distribuição
+algin-self = decidir alinhamento especifico do conteiner
