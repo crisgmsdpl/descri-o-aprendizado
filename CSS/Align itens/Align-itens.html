@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundamentos align items</title>
+    <style>
+        .conteiner{
+            max-width: 450px;
+            border: 1px solid black;
+            display: flex;
+        }
+        .item{
+            background-color: violet;
+            margin: 5px;
+            color: aqua;
+            text-align: center;
+            flex: 1;
+        }
+        .flex{
+            flex: 1;
+        }
+        .center{
+            align-items: center;
+        }
+        .stretch{
+            align-items: stretch;
+        }
+        .flex-start{
+            align-items: flex-start;
+        }
+        .flex-end{
+            align-items: flex-end;
+        }
+        .base {
+            align-items: baseline;
+        }
+        .columm{
+            flex-direction: column;
+        }
+        .central{
+            height: 300px;
+            justify-content: center;
+        }
+        .central .flex{
+            flex: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>row</h1>
+    <p>center</p>
+    <section class="conteiner center flex">
+        <div class="item">items</div>
+        <div class="item">fundamentos align item centro</div>
+        <div class="item">align</div>
+    </section>
+    
+    <p>stretch</p>
+    <section class="conteiner stretch">
+        <div class="item">items</div>
+        <div class="item">fundamentos align item cresce de acordo com maior conteudo</div>
+        <div class="item">align</div>
+    </section>
+    <p>flex start</p>
+    <section class="conteiner flex-start">
+        <div class="item">items</div>
+        <div class="item">fundamentos align item flex start cada item se mantem de acordo com se tamanho</div>
+        <div class="item">align</div>
+    </section>
+    <p>flex end</p>
+    <section class="conteiner flex-end">
+        <div class="item">items</div>
+        <div class="item">fundamentos align item na parte inferior </div>
+        <div class="item">assim ficando alinhado as linhas inferiores de acordo com tamanho do conteudo </div>
+    </section>
+
+    <p>base line</p>
+
+    <section class="conteiner base">
+        <div class="item"><br>item 1</div>
+        <div class="item">fundamentos align item centro</div>
+        <div class="item">align</div>
+    </section> 
+
+    <h1>columm</h1>
+
+    <p>flex start</p>
+
+    <section class="conteiner flex-start columm">
+        <div class="item">items</div>
+        <div class="item">fundamentos align item flex start cada item se mantem de acordo com se tamanho</div>
+        <div class="item">align</div>
+    </section>
+
+    <p>flex end</p>
+
+    <section class="conteiner flex-end columm">
+        <div class="item">items</div>
+        <div class="item">fundamentos align item na parte inferior </div>
+        <div class="item">assim ficando alinhado as linhas inferiores de acordo com tamanho do conteudo </div>
+    </section>
+
+    <p>base line</p>
+
+    <section class="conteiner base columm">
+        <div class="item"><br>item 1</div>
+        <div class="item">fundamentos align item centro</div>
+        <div class="item">align</div>
+    </section> 
+
+    <p>center</p>
+
+    <section class="conteiner center columm">
+        <div class="item">items</div>
+        <div class="item">fundamentos align item centro</div>
+        <div class="item">align</div>
+    </section> 
+
+    <p>central</p>
+
+    <section class="conteiner central center">
+        <div class="item"> que coisas aleatorias que ficaram no centro este tera que ser um pequeno texto para amostra  tem que crescer para ficar bom de visualizar </div>
+    </section>
+</body>
+</html>

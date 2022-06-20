@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundamentos order</title>
+    <style>
+        .conteiner{
+            display: flex;
+            max-width: 350px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+        .item{
+            flex: 1;
+            background: skyblue;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            margin: 10px;
+        }
+        .or{
+            order: 1;
+        }
+        .or2{
+            order: 2;
+        }
+        .or3{
+            order: 3;
+        }
+        .or4{
+            order: 4;
+        }
+        .orneg{
+            order: -1;
+        }
+        .direction{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>order 0</h1>
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+    </div>
+
+    <h1>order: diferentes</h1>
+    <p>decrescente</p>
+    <div class="conteiner">
+        <div class="item or4">A</div>
+        <div class="item or3">B</div>
+        <div class="item or2">C</div>
+        <div class="item">D</div>
+    </div>
+    <h1>columm </h1>
+
+    <h1>order 0</h1>
+    <div class="conteiner direction">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+    </div>
+    
+    <h1>order mix</h1>
+    <div class="conteiner direction">
+        <div class="item or">A</div>
+        <div class="item or3">B</div>
+        <div class="item or2">C</div>
+        <div class="item">D</div>
+    </div>
+    <h1>order neg </h1>
+    <div class="conteiner direction">
+        <div class="item">A</div>
+        <div class="item orneg">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+    </div>
+</body>
+</html>

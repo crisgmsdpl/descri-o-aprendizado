@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundamentos Algin content</title>
+
+
+    <style>
+        .conteiner{
+           height: 350px;
+           max-width: 300px;
+           display: flex;
+           flex-wrap: wrap;
+           border: 1px solid black; 
+        }
+
+        .item{
+            background-color:orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+        .center{
+            align-content: center;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .space-between{
+            align-content: space-between;
+        }
+        .space-around{
+            align-content: space-around;
+        }
+    </style>
+
+</head>
+
+<body>
+
+  <p>center</p>>
+
+   <div class="conteiner center">
+    <div class="item"> texto fictício padrão da indústria desde os anos 1500, quando um impressor </div>
+    <div class="item"> eletrônica, permanecendo essencialmente inalterado</div>
+    <div class="item">e tem uma distribuição mais ou menos normal de letras, ao contrário de usar.</div>
+    <div class="item">acompanhadas de vadução de 1914 de H. Rackham.</div>
+    <div class="item">Onde posso arranjar algum?</div>
+    <div class="item">desde os anos 1500</div>
+    <div class="item">1 item a mais </div>
+</div>
+
+<p>flex start</p>
+
+<div class="conteiner flex-start">
+    <div class="item">io padrão da indústria desde os anos 1500, quando um impressor </div>
+    <div class="item"> eletrônica, permanecendo essencialmente inalterado</div>
+    <div class="item">uma distribuição mais ou menos normal de letras, ao contrário de usar.</div>
+    <div class="item">acompanhaa tradução de 1914 de H. Rackham.</div>
+    <div class="item">Onde posso arranjar algum?</div>
+    <div class="item">desde os anos 1500</div>
+    <div class="item">1 item</div>
+</div>
+
+<p>flex-end</p>
+<div class="conteiner flex-end">
+    <div class="item">Lorem Ipsum temdrão da indústria desde os anos 1500, quando um impressor </div>
+    <div class="item">Ele sobreviveu não apehhhhosição eletrônica, permanecendo essencialmente inalterado</div>
+    <div class="item">O ponto de usar Lorem Ipsum é que ele tem uma distribuição mais ou menos normal de letras, ao contrário de usar.</div>
+    <div class="item">dão de 1914 de H. Rackham.</div>
+    <div class="item">Onde posso arranjar algum?</div>
+    <div class="item">desde os anos 1500</div>
+    <div class="item">1 item</div>
+</div>
+<h1>space-between</h1>
+
+<div class="conteiner space-between">
+    <div class="item">Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor </div>
+    <div class="item">Ele sobreviveu não apehhhhosição eletrônica, permanecendo essencialmente inalterado</div>
+    <div class="item">O ponto de usam uma distribuição mais ou menos normal de letras, ao contrário de usar.</div>
+    <div class="item">acompanhadas de versões em inglês da tradução de 1914 de H. Rackham.</div>
+    <div class="item">Onde posso arranjar algum?</div>
+    <div class="item">desde os anos 1500</div>
+    <div class="item">1 item</div>
+</div>
+
+<h1>space-around</h1>
+
+<div class="conteiner space-around">
+    <div class="item">Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor </div>
+    <div class="item">Ele sobreviveu não apehhhhosição eletrônica, permanecendo essencialmente inalterado</div>
+    <div class="item">O ponto de uma distribuição mais ou menos normal de letras, ao contrário de usar.</div>
+    <div class="item">acompanhadas de versões em inglês da tradução de 1914 de H. Rackham.</div>
+    <div class="item">Onde posso arranjar algum?</div>
+    <div class="item">desde os anos 1500</div>
+    <div class="item">1 item</div>
+</div>
+
+<h1>stretch</h1>
+
+<div class="conteiner stretch">
+    <div class="item">io padrão da indústria desde os anos 1500, quando um impressor </div>
+    <div class="item">E permanecendo essencialmente inalterado</div>
+    <div class="item">O ponto de usar Lorem letras, ao conrio de usar.</div>
+    <div class="item">acompanhadas de versões ês da tradução de 1914 de H. Rackham.</div>
+    <div class="item">Onde posso arranjar algum?</div>
+    <div class="item">desde os anos 1500</div>
+    <div class="item">1 item</div>
+</div>
+
+</body>
+</html>

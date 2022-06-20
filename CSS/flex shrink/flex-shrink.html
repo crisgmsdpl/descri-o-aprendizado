@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundamentos shrink</title>
+
+    <style>
+
+        .flex-conteiner{
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+        }
+        .item{
+            background-color: orchid;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+       
+        .grow{
+            flex-grow: 1;
+        }
+        .shr{
+            flex-shrink: 0;
+            flex-basis: 100px;
+        }
+        .shrink{
+            flex-shrink: 1;
+        }
+        .shrink2{
+            flex-shrink: 2;
+            flex-basis: 100px;
+        }
+        .shrink3{
+            flex-shrink: 3;
+            flex-basis: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>shrink: 1</p>
+    <div class="flex-conteiner">
+        <div class="item shrink grow">A</div>
+        <div class="item shrink grow">B</div>
+        <div class="item shrink grow">C</div>
+        <div class="item shrink grow">D</div>
+        <div class="item shrink grow">E</div>
+    </div> 
+    <p>ex: com item maior</p>
+    <div class="flex-conteiner">
+        <div class="item shrink grow">A</div>
+        <div class="item shrink grow">B</div>
+        <div class="item shrink grow">The gerated Lorem Ipsum</div>
+        <div class="item shrink grow">D</div>
+        <div class="item shrink grow">E</div>
+    </div>
+    <p>shrink em 0 /basis 100px</p>
+    <div class="flex-conteiner">
+        <div class="item shr grow">A</div>
+        <div class="item shr grow">The gerated Lorem</div>
+        <div class="item shr grow">C</div>
+        <div class="item shr grow">The gerated Lorem</div>
+        <div class="item shr grow">E</div>
+    </div>
+    <p>shrink mix /basis 100px</p>
+    <div class="flex-conteiner">
+        <div class="item shr grow">A</div>
+        <div class="item shrink grow">The gerated Lorem</div>
+        <div class="item shrink2 grow">gerated</div>
+        <div class="item shrink3 grow">The gerated Lorem</div>
+        <div class="item shr grow">E</div>
+    </div>
+</body>
+</html>
